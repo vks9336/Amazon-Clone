@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 Amazon Clone - Modern E-commerce Experience
 
 <div align="center">
@@ -374,3 +375,6 @@ Made with ❤️ by [Your Name](https://github.com/yourusername)
 *Building the future of e-commerce, one component at a time*
 
 </div>
+=======
+# Amazon-Clone
+>>>>>>> 9cb0187dcae9f6c8b2ab7fa58be44dc22dff075d
