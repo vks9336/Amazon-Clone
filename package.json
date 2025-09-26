@@ -1,0 +1,75 @@
+{
+  "name": "amazon-clone",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "A modern, feature-rich Amazon clone built with React, Vite, and Tailwind CSS. Features include responsive design, dark mode, shopping cart, user authentication, and stunning animations.",
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "ecommerce",
+    "amazon-clone",
+    "shopping-cart",
+    "framer-motion",
+    "responsive-design",
+    "dark-mode",
+    "pwa"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/amazon-clone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/amazon-clone/issues"
+  },
+  "homepage": "https://yourusername.github.io/amazon-clone",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "dev:clean": "rm -rf node_modules/.vite && npm run dev",
+    "dev:troubleshoot": "node scripts/dev-troubleshoot.js",
+    "dev:force": "pkill -f vite || true && rm -rf node_modules/.vite && npm run dev",
+    "dev:no-hmr": "vite --config vite.config.no-hmr.js",
+    "dev:ws-debug": "DEBUG=vite:hmr vite"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.8",
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.3.0",
+    "axios": "^1.12.2",
+    "framer-motion": "^12.23.21",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-router-dom": "^7.9.2",
+    "react-toastify": "^11.0.5",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.14",
+    "tailwindcss-cli": "^0.1.2",
+    "vite": "^7.1.7"
+  }
+}
